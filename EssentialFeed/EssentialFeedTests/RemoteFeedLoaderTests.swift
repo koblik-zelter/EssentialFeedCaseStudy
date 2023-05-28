@@ -22,7 +22,7 @@ final class RemoteFeedLoaderTests: XCTestCase {
 
         sut.load()
 
-        XCTAssertNotNil(client.requestedURL)
+        XCTAssertEqual(client.requestedURL, url)
     }
 
     // MARK: - Helpers
