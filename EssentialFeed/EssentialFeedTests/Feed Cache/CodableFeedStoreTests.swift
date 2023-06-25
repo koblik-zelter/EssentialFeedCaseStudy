@@ -84,23 +84,15 @@ final class CodableFeedStoreTests: XCTestCase, FailableFeedStoreSpecs {
     func test_insert_deliversErrorOnInsertionError() {
         let invalidStoreURL = URL(string: "invalid://store-url")!
         let sut = makeSUT(storeURL: invalidStoreURL)
-        let feed = uniqueImageFeed().local
-        let timestamp = Date()
 
-        let insertionError = insert((feed, timestamp), to: sut)
-
-        XCTAssertNotNil(insertionError, "Expected cache insertion to fail with an error")
+        assertThatInsertDeliversErrorOnInsertionError(on: sut)
     }
 
     func test_insert_hasNoSideEffectsOnInsertionError() {
         let invalidStoreURL = URL(string: "invalid://store-url")!
         let sut = makeSUT(storeURL: invalidStoreURL)
-        let feed = uniqueImageFeed().local
-        let timestamp = Date()
 
-        insert((feed, timestamp), to: sut)
-
-        expect(sut, toRetrieve: .empty)
+        assertThatInsertHasNoSideEffectsOnInsertionError(on: sut)
     }
 
     func test_delete_deliversNoErrorOnEmptyCache() {
@@ -128,7 +120,7 @@ final class CodableFeedStoreTests: XCTestCase, FailableFeedStoreSpecs {
     }
 
     func test_delete_deliversErrorOnDeletionError() {
-        let noDeletePermissionStoreURL = cachesDirectory()
+        let noDeletePermissionStoreURL = noDeletePermissionURL()
         let sut = makeSUT(storeURL: noDeletePermissionStoreURL)
 
         let deletionError = deleteCache(from: sut)
@@ -137,7 +129,7 @@ final class CodableFeedStoreTests: XCTestCase, FailableFeedStoreSpecs {
     }
 
     func test_delete_hasNoSideEffectsOnDeletionError() {
-        let noDeletePermissionStoreURL = cachesDirectory()
+        let noDeletePermissionStoreURL = noDeletePermissionURL()
         let sut = makeSUT(storeURL: noDeletePermissionStoreURL)
 
         deleteCache(from: sut)
@@ -178,5 +170,9 @@ final class CodableFeedStoreTests: XCTestCase, FailableFeedStoreSpecs {
 
     private func cachesDirectory() -> URL {
         FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).first!
+    }
+
+    private func noDeletePermissionURL() -> URL {
+        FileManager.default.urls(for: .cachesDirectory, in: .systemDomainMask).first!
     }
 }
