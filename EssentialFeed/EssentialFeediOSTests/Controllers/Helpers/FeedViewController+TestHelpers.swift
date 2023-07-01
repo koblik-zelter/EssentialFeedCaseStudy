@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import EssentialFeediOS
 
 extension FeedViewController {
     var isShowingLoadingIndicator: Bool {
