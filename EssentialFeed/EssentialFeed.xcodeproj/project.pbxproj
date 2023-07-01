@@ -381,9 +381,7 @@
 				2A9B36F92A50A1FD001B4B17 /* ErrorView.swift */,
 				2A44DA242A50812300898973 /* Feed.storyboard */,
 				2A44DA282A5081C700898973 /* Feed.xcassets */,
-				2A44D9F02A50559C00898973 /* UIView+Shimmering.swift */,
-				2A44DA2A2A5088C300898973 /* UITableView+Dequeueing.swift */,
-				2A44DA2C2A50894100898973 /* UIImageView+Animations.swift */,
+				2A9B36FB2A50A451001B4B17 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -470,6 +468,16 @@
 			children = (
 				2A58A62D2A2CB23500499086 /* XCTestCase+MemoryLeakTracking.swift */,
 				2A14B4862A344FE200536B6D /* SharedTestHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2A9B36FB2A50A451001B4B17 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2A44D9F02A50559C00898973 /* UIView+Shimmering.swift */,
+				2A44DA2A2A5088C300898973 /* UITableView+Dequeueing.swift */,
+				2A44DA2C2A50894100898973 /* UIImageView+Animations.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
