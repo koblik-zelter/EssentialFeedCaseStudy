@@ -16,7 +16,7 @@ public final class ErrorView: UIView {
 }
 
 public final class FeedViewController: UITableViewController, UITableViewDataSourcePrefetching {
-    public let errorView = ErrorView()
+    @IBOutlet private(set) public var errorView: ErrorView?
     var delegate: FeedViewControllerDelegate?
     var tableModel: [FeedImageCellController] = [] {
         didSet {
@@ -89,6 +89,6 @@ extension FeedViewController: FeedLoadingView {
 
 extension FeedViewController: FeedErrorView {
     func display(_ viewModel: FeedErrorViewModel) {
-        errorView.message = viewModel.message
+        errorView?.message = viewModel.message
     }
 }
