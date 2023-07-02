@@ -15,7 +15,7 @@ final class RemoteFeedImageDataLoader {
 
     private struct HTTPTaskWrapper: FeedImageDataLoaderTask {
         let wrapped: HTTPClientTask
-        
+
         func cancel() {
             wrapped.cancel()
         }
