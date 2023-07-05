@@ -121,15 +121,16 @@ final class CoreDataFeedImageDataStoreTests: XCTestCase {
             switch result {
             case let .failure(error):
                 XCTFail("Failed to save \(image) with error \(error)", file: file, line: line)
+                exp.fulfill()
 
             case .success:
                 sut.insert(data, for: url) { result in
                     if case let Result.failure(error) = result {
                         XCTFail("Failed to insert \(data) with error \(error)", file: file, line: line)
                     }
+                    exp.fulfill()
                 }
             }
-            exp.fulfill()
         }
         wait(for: [exp], timeout: 1.0)
      }
