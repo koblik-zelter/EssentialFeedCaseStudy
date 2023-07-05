@@ -1528,7 +1528,7 @@
 				2A9019D02A5604D100E9ADFA /* FeedStore 2.xcdatamodel */,
 				2A44A3052A4B64BC00898973 /* FeedStore.xcdatamodel */,
 			);
-			currentVersion = 2A44A3052A4B64BC00898973 /* FeedStore.xcdatamodel */;
+			currentVersion = 2A9019D02A5604D100E9ADFA /* FeedStore 2.xcdatamodel */;
 			path = FeedStore.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
