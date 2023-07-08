@@ -28,7 +28,6 @@
 		2AB7C8D52A59DB6D00ADCDE3 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8D42A59DB6D00ADCDE3 /* FeedImageDataLoaderCacheDecoratorTests.swift */; };
 		2AB7C8D72A59E17100ADCDE3 /* FeedImageDataLoaderSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8D62A59E17100ADCDE3 /* FeedImageDataLoaderSpy.swift */; };
 		2AB7C8DB2A59E3B000ADCDE3 /* FeedImageDataLoaderCacheDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8DA2A59E3B000ADCDE3 /* FeedImageDataLoaderCacheDecorator.swift */; };
-		2AB7C8E32A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8E22A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.swift */; };
 		2AB7C8EC2A5A043700ADCDE3 /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8EB2A5A043700ADCDE3 /* DebuggingSceneDelegate.swift */; };
 		2AB7C8F02A5A08E900ADCDE3 /* SceneDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8EF2A5A08E900ADCDE3 /* SceneDelegateTests.swift */; };
 		2AB7C9042A5A0B4000ADCDE3 /* FeedUIComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C8FD2A5A0AA600ADCDE3 /* FeedUIComposer.swift */; };
@@ -107,7 +106,6 @@
 		2AB7C8D62A59E17100ADCDE3 /* FeedImageDataLoaderSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderSpy.swift; sourceTree = "<group>"; };
 		2AB7C8DA2A59E3B000ADCDE3 /* FeedImageDataLoaderCacheDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderCacheDecorator.swift; sourceTree = "<group>"; };
 		2AB7C8E02A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppUIAcceptanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AB7C8E22A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 		2AB7C8EB2A5A043700ADCDE3 /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		2AB7C8EF2A5A08E900ADCDE3 /* SceneDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegateTests.swift; sourceTree = "<group>"; };
 		2AB7C8FD2A5A0AA600ADCDE3 /* FeedUIComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIComposer.swift; sourceTree = "<group>"; };
@@ -162,7 +160,6 @@
 				2AB7C8C72A59B9E100ADCDE3 /* CI_iOS.xctestplan */,
 				2AB7BDBE2A561A9900ADCDE3 /* EssentialApp */,
 				2AB7C8B22A59AB1600ADCDE3 /* EssentialAppTests */,
-				2AB7C8E12A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests */,
 				2AB7BDBD2A561A9900ADCDE3 /* Products */,
 				2AB7BDD32A561B5800ADCDE3 /* Frameworks */,
 			);
@@ -239,14 +236,6 @@
 				2AB7C9122A5A0C6800ADCDE3 /* UIControl+TestHelpers.swift */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		2AB7C8E12A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				2AB7C8E22A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.swift */,
-			);
-			path = EssentialAppUIAcceptanceTests;
 			sourceTree = "<group>";
 		};
 		2AB7C9032A5A0AA600ADCDE3 /* Composers */ = {
@@ -441,7 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB7C8E32A59FF5900ADCDE3 /* EssentialAppUIAcceptanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
