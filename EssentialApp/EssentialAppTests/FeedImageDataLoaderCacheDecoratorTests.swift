@@ -108,7 +108,7 @@ final class FeedImageDataLoaderCacheDecoratorTests: XCTestCase {
         private(set) var cancelledURLs = [URL]()
 
         var loadedURLs: [URL] {
-            return messages.map { $0.url }
+            messages.map { $0.url }
         }
 
         private struct Task: FeedImageDataLoaderTask {
