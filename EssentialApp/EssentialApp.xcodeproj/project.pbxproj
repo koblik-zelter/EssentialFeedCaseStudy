@@ -68,6 +68,7 @@
 		2AB7C8C02A59B85800ADCDE3 /* FeedImageDataLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 		2AB7C8C32A59B8B400ADCDE3 /* XCTestCase+MemoryLeakTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+MemoryLeakTracking.swift"; sourceTree = "<group>"; };
 		2AB7C8C52A59B91900ADCDE3 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		2AB7C8C72A59B9E100ADCDE3 /* CI_iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI_iOS.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		2AB7BDB32A561A9900ADCDE3 = {
 			isa = PBXGroup;
 			children = (
+				2AB7C8C72A59B9E100ADCDE3 /* CI_iOS.xctestplan */,
 				2AB7BDBE2A561A9900ADCDE3 /* EssentialApp */,
 				2AB7C8B22A59AB1600ADCDE3 /* EssentialAppTests */,
 				2AB7BDBD2A561A9900ADCDE3 /* Products */,
