@@ -46,6 +46,7 @@
 		2AB7C91B2A5A0C6800ADCDE3 /* UIControl+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C9122A5A0C6800ADCDE3 /* UIControl+TestHelpers.swift */; };
 		2AB7C91D2A5A0CEE00ADCDE3 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C91C2A5A0CEE00ADCDE3 /* FeedUIIntegrationTests.swift */; };
 		2AB7C91F2A5A0D9700ADCDE3 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C91E2A5A0D9700ADCDE3 /* FeedAcceptanceTests.swift */; };
+		2AB7C9212A5A11BA00ADCDE3 /* HTTPClientStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7C9202A5A11BA00ADCDE3 /* HTTPClientStub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		2AB7C9122A5A0C6800ADCDE3 /* UIControl+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+TestHelpers.swift"; sourceTree = "<group>"; };
 		2AB7C91C2A5A0CEE00ADCDE3 /* FeedUIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUIIntegrationTests.swift; sourceTree = "<group>"; };
 		2AB7C91E2A5A0D9700ADCDE3 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
+		2AB7C9202A5A11BA00ADCDE3 /* HTTPClientStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 				2AB7C8CA2A59D35C00ADCDE3 /* FeedLoaderStub.swift */,
 				2AB7C8CC2A59D48300ADCDE3 /* XCTestCase+FeedLoader.swift */,
 				2AB7C8D62A59E17100ADCDE3 /* FeedImageDataLoaderSpy.swift */,
+				2AB7C9202A5A11BA00ADCDE3 /* HTTPClientStub.swift */,
 				2AB7C9102A5A0C6800ADCDE3 /* FeedViewController+TestHelpers.swift */,
 				2AB7C90A2A5A0C6700ADCDE3 /* FeedImageCell+TestHelpers.swift */,
 				2AB7C9112A5A0C6800ADCDE3 /* FeedUIIntegrationTests+LoaderSpy.swift */,
@@ -400,6 +403,7 @@
 			files = (
 				2AB7C8C62A59B91900ADCDE3 /* SharedTestHelpers.swift in Sources */,
 				2AB7C9142A5A0C6800ADCDE3 /* UIRefreshControl+TestHelpers.swift in Sources */,
+				2AB7C9212A5A11BA00ADCDE3 /* HTTPClientStub.swift in Sources */,
 				2AB7C8D52A59DB6D00ADCDE3 /* FeedImageDataLoaderCacheDecoratorTests.swift in Sources */,
 				2AB7C8CD2A59D48300ADCDE3 /* XCTestCase+FeedLoader.swift in Sources */,
 				2AB7C91D2A5A0CEE00ADCDE3 /* FeedUIIntegrationTests.swift in Sources */,
