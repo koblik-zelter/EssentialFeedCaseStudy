@@ -100,7 +100,7 @@ Location</string>
                                                             <rect key="frame" x="0.0" y="0.0" width="374" height="374"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                             <state key="normal" title="↻">
-                                                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="titleColor" systemColor="systemBackgroundColor"/>
                                                             </state>
                                                             <connections>
                                                                 <action selector="retryButtonTapped" destination="4Aa-lg-gTp" eventType="touchUpInside" id="cwJ-2Y-gvO"/>
