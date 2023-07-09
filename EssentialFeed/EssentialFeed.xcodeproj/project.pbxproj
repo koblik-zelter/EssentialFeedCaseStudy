@@ -297,7 +297,6 @@
 			children = (
 				2AF4768C2A2363D9006F6404 /* LoadFeedFromRemoteUseCaseTests.swift */,
 				2ACA57562A515CB900D1B5D0 /* LoadFeedImageDataFromRemoteUseCaseTests.swift */,
-				2AB7C9332A5AE75D00ADCDE3 /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -509,6 +508,23 @@
 			path = "Shared API Infra";
 			sourceTree = "<group>";
 		};
+		2AB7C9412A5B360100ADCDE3 /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7C9352A5B27D000ADCDE3 /* RemoteImageCommentsLoader.swift */,
+				2AB7C9372A5B27F500ADCDE3 /* ImageCommentsMapper.swift */,
+			);
+			path = "Image Comments API";
+			sourceTree = "<group>";
+		};
+		2AB7C9422A5B362300ADCDE3 /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7C9332A5AE75D00ADCDE3 /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
+			);
+			path = "Image Comments API";
+			sourceTree = "<group>";
+		};
 		2ACA56FA2A50AC6700D1B5D0 /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -604,6 +620,7 @@
 				2AF476892A236347006F6404 /* Feed Feature */,
 				2A14B4742A332EF800536B6D /* Feed Cache */,
 				2AB7C9392A5B30E900ADCDE3 /* Image Comments Feature */,
+				2AB7C9412A5B360100ADCDE3 /* Image Comments API */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -617,6 +634,7 @@
 				2A02DF722A239A2400E30CD8 /* Feed API */,
 				2AB1460E2A2DB39F00B6C895 /* Feed Cache */,
 				2ACA57322A50AD5300D1B5D0 /* Feed Presentation */,
+				2AB7C9422A5B362300ADCDE3 /* Image Comments API */,
 			);
 			path = EssentialFeedTests;
 			sourceTree = "<group>";
@@ -638,8 +656,6 @@
 			children = (
 				2ADB4B312A51824A005A486B /* Helpers */,
 				2AF4768F2A2368C7006F6404 /* RemoteFeedLoader.swift */,
-				2AB7C9352A5B27D000ADCDE3 /* RemoteImageCommentsLoader.swift */,
-				2AB7C9372A5B27F500ADCDE3 /* ImageCommentsMapper.swift */,
 				2AF476932A239736006F6404 /* FeedItemsMapper.swift */,
 				2A14B4792A333F2A00536B6D /* RemoteFeedItem.swift */,
 				2ADB4B2D2A517F6A005A486B /* RemoteFeedImageDataLoader.swift */,
