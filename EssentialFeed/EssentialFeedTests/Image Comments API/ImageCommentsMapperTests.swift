@@ -1,5 +1,5 @@
 //
-//  LoadImageCommentsFromRemoteUseCaseTests.swift
+//  ImageCommentsMapperTests.swift
 //  EssentialFeedTests
 //
 //  Created by Alexandr Coblic-Zelter on 09.07.2023.
