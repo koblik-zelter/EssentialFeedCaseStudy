@@ -14,7 +14,7 @@ extension ListViewController {
     }
 
     var errorMessage: String? {
-        errorView?.message
+        errorView.message
     }
 
     func simulateUserInitiatedFeedReload() {
@@ -70,5 +70,9 @@ extension ListViewController {
 
     func renderedFeedImageData(at index: Int) -> Data? {
         simulateFeedImageViewVisible(at: index)?.renderedImage
+    }
+
+    func simulateErrorViewTap() {
+        errorView.simulateTap()
     }
 }
