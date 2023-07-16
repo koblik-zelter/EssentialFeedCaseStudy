@@ -86,7 +86,6 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             .map { Paginated(items: $0) }
             .eraseToAnyPublisher()
     }
-
     
     private func makeLocalImageLoaderWithRemoteFallback(url: URL) -> FeedImageDataLoader.Publisher {
         let localImageLoader = LocalFeedImageDataLoader(store: store)
