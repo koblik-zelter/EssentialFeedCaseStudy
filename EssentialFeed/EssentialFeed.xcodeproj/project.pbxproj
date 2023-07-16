@@ -15,6 +15,8 @@
 		2A14B4832A344BB800536B6D /* ValidateFeedCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14B4822A344BB800536B6D /* ValidateFeedCacheUseCaseTests.swift */; };
 		2A14B4852A344F3E00536B6D /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14B4842A344F3E00536B6D /* FeedCacheTestHelpers.swift */; };
 		2A14B4872A344FE200536B6D /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A14B4862A344FE200536B6D /* SharedTestHelpers.swift */; };
+		2A2EC8F92A64250700F38D53 /* LoadMoreCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EC8F82A64250700F38D53 /* LoadMoreCellController.swift */; };
+		2A2EC8FB2A64253100F38D53 /* LoadMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2EC8FA2A64253100F38D53 /* LoadMoreCell.swift */; };
 		2A32A7B22A489E350008A8A8 /* FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32A7B12A489E350008A8A8 /* FeedStoreSpecs.swift */; };
 		2A32A7B42A48AB550008A8A8 /* XCTestCase+FeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32A7B32A48AB550008A8A8 /* XCTestCase+FeedStoreSpecs.swift */; };
 		2A32A7B62A48B0A40008A8A8 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A32A7B52A48B0A40008A8A8 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */; };
@@ -176,6 +178,8 @@
 		2A14B4822A344BB800536B6D /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
 		2A14B4842A344F3E00536B6D /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
 		2A14B4862A344FE200536B6D /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
+		2A2EC8F82A64250700F38D53 /* LoadMoreCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreCellController.swift; sourceTree = "<group>"; };
+		2A2EC8FA2A64253100F38D53 /* LoadMoreCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreCell.swift; sourceTree = "<group>"; };
 		2A32A7B12A489E350008A8A8 /* FeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedStoreSpecs.swift; sourceTree = "<group>"; };
 		2A32A7B32A48AB550008A8A8 /* XCTestCase+FeedStoreSpecs.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FeedStoreSpecs.swift"; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 1; };
 		2A32A7B52A48B0A40008A8A8 /* XCTestCase+FailableRetrieveFeedStoreSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+FailableRetrieveFeedStoreSpecs.swift"; sourceTree = "<group>"; };
@@ -417,6 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				2A44DA122A5062DA00898973 /* FeedImageCellController.swift */,
+				2A2EC8F82A64250700F38D53 /* LoadMoreCellController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -428,6 +433,7 @@
 				2A44DA242A50812300898973 /* Feed.storyboard */,
 				2A44DA282A5081C700898973 /* Feed.xcassets */,
 				2A9B36FB2A50A451001B4B17 /* Helpers */,
+				2A2EC8FA2A64253100F38D53 /* LoadMoreCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1079,7 +1085,9 @@
 				2AB7C92A2A5AC2FB00ADCDE3 /* UITableView+HeaderSizing.swift in Sources */,
 				2ACA571A2A50AD0600D1B5D0 /* UIView+Shimmering.swift in Sources */,
 				2ACA57232A50AD0600D1B5D0 /* ListViewController.swift in Sources */,
+				2A2EC8FB2A64253100F38D53 /* LoadMoreCell.swift in Sources */,
 				2AF091CF2A5F456900CD707B /* UIView+Container.swift in Sources */,
+				2A2EC8F92A64250700F38D53 /* LoadMoreCellController.swift in Sources */,
 				2AF091C82A5F3B8A00CD707B /* CellController.swift in Sources */,
 				2ACA571D2A50AD0600D1B5D0 /* UIRefreshControl+Helpers.swift in Sources */,
 				2ACA571C2A50AD0600D1B5D0 /* ErrorView.swift in Sources */,
