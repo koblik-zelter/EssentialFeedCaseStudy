@@ -11,6 +11,7 @@ import EssentialFeed
 public final class LoadMoreCellController: NSObject, UITableViewDataSource, UITableViewDelegate {
     private let cell = LoadMoreCell()
     private let callback: () -> Void
+    private var offsetObserver: NSKeyValueObservation?
 
     public init(callback: @escaping () -> Void = {}) {
         self.callback = callback
