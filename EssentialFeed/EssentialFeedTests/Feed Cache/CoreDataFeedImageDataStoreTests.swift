@@ -96,7 +96,7 @@ final class CoreDataFeedImageDataStoreTests: XCTestCase {
     ) {
         let receivedResult = Result { try sut.retrieve(dataForURL: url) }
         switch (receivedResult, expectedResult) {
-        case let (.success( receivedData), .success(expectedData)):
+        case let (.success(receivedData), .success(expectedData)):
             XCTAssertEqual(receivedData, expectedData, file: file, line: line)
 
         default:
